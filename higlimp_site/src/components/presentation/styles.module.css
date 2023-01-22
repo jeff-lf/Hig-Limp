@@ -1,4 +1,32 @@
 .container{
+    width: 100vw;
     height: 50vh;
     background-color: var(--grey-1);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content{
+    width: 80vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.content h2{
+    font-size: 4rem;
+}
+
+.content img{
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    border: none;
+    border-radius: 50%;
+}
+
+.cardlist {
+    display: flex;
 }

@@ -1,12 +1,20 @@
 import { Header } from "../../components/Header"
-import { Presentation } from "../../components/presentation"
+import { ImgCarousel } from "../../components/ImgCarousel"
+import { ImgPresentation } from "../../components/ImgPresentation"
+import { MyServices } from "../../components/MyServices"
+import { HowWork } from "../../components/presentation"
+
+import styles from './styles.module.css'
 
 
 export const Home = () => {
     return (
-        <div>
+        <div className={styles.container}>
             <Header/>
-            <Presentation/>
+            <ImgPresentation />
+            {/*<ImgCarousel />*/}
+            <HowWork/>
+            <MyServices />
         </div>
     )
 }
