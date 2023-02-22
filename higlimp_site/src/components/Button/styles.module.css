@@ -1,4 +1,4 @@
-button{
+.headerButton{
     width: 6rem;
     font-size: 14px;
     font-weight: 700;
@@ -6,6 +6,6 @@ button{
     background: none;
 }
 
-button:hover{
-    color: green;
+.headerButton:hover{
+    color: #3ac2ce;
 }

@@ -1,4 +1,6 @@
 import styles from "./styles.module.css";
+import {BsWhatsapp, BsCalculatorFill} from "react-icons/bs";
+import { GiVacuumCleaner } from 'react-icons/gi'
 
 export const HowWork = () => {
   return (
@@ -7,24 +9,30 @@ export const HowWork = () => {
         <h2>Como Funciona?</h2>
         <div className={styles.cardlist}>
             <div className={styles.card}>
-              <img src="" alt="" />
-              <h3>Texto 1</h3>
+              <div className={styles.icon}>
+                <BsWhatsapp size={30} className={styles.iconSvg}/>
+              </div>
+              <h3>Contato</h3>
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi
                 officia, distinctio cumque qui labore quae?
               </p>
             </div>
             <div className={styles.card}>
-              <img src="" alt="" />
-              <h3>Texto 2</h3>
+              <div className={styles.icon}>
+                <BsCalculatorFill size={30}/>
+              </div>
+              <h3>Orçamento</h3>
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi
                 officia, distinctio cumque qui labore quae?
               </p>
             </div>
             <div className={styles.card}>
-              <img src="" alt="" />
-              <h3>Texto 3</h3>
+              <div className={styles.icon}>
+                <GiVacuumCleaner  size={30}/>
+              </div>
+              <h3>Limpeza</h3>
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi
                 officia, distinctio cumque qui labore quae?

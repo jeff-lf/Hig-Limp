@@ -1,3 +1,4 @@
+import { ButtonFloating } from "../../components/ButtonFloating"
 import { Header } from "../../components/Header"
 import { ImgCarousel } from "../../components/ImgCarousel"
 import { ImgPresentation } from "../../components/ImgPresentation"
@@ -15,6 +16,7 @@ export const Home = () => {
             {/*<ImgCarousel />*/}
             <HowWork/>
             <MyServices />
+            <ButtonFloating />
         </div>
     )
 }

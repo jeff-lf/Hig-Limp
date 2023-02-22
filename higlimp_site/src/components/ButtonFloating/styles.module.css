@@ -1,0 +1,7 @@
+.buttonFloating{
+    position: fixed;
+    z-index: 999999;
+    bottom: 6rem;
+    right: 2rem;
+    background: none;
+}

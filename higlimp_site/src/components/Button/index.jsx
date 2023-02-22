@@ -5,7 +5,7 @@ export const Button = (props) => {
     const {title} = props
     
     return (
-        <button>
+        <button className={styles.headerButton}>
             <div>
                 {title}
             </div>

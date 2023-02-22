@@ -9,10 +9,10 @@ export const Header = () => {
                     HIG LIMP    
                 </div>
                 <nav>
-                    <Button background='green' title='botão'></Button>
-                    <Button background='green' title='botão'></Button>
-                    <Button background='green' title='botão'></Button>
-                    <Button background='green' title='botão'></Button>
+                    <Button background='green' title='Início'></Button>
+                    <Button background='green' title='Serviços'></Button>
+                    <Button background='green' title='Sobre nós'></Button>
+                    <Button background='green' title='Contato'></Button>
                 </nav>
             </div>
         </header>
