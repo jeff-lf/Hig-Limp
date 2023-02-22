@@ -13,9 +13,9 @@ export const Home = () => {
         <div className={styles.container}>
             <Header/>
             <ImgPresentation />
-            {/*<ImgCarousel />*/}
             <HowWork/>
             <MyServices />
+            <ImgCarousel />
             <ButtonFloating />
         </div>
     )

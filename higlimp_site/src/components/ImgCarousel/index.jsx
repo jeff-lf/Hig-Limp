@@ -2,7 +2,6 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import Carousel from 'react-bootstrap/Carousel';
 
-import sofa1 from '../../assets/images/sofa1.jpeg'
 import sofa2 from '../../assets/images/sofa2.jpeg'
 import sofa3 from '../../assets/images/sofa3.jpeg'
 import sofa4 from '../../assets/images/sofa4.jpeg'
@@ -15,13 +14,12 @@ import styles from './styles.module.css'
 export const ImgCarousel = () => {
     return (
       <div className={styles.container}>
-        <Carousel className={styles.content}>
-          <Carousel.Item className={styles.item}>
-            <img
-              src={sofa1}
-              alt="Image One"
-            />
-          </Carousel.Item>
+        <div className={styles.content}>
+          <div className={styles.textCarousel}>
+              <h3 className={styles.carouselH}>Confira nossas TRANSFORMAÇÕES</h3>
+              <p className={styles.carouselP}>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        <Carousel className={styles.images}>
           <Carousel.Item className={styles.item}>
             <img 
               src={sofa2}
@@ -53,6 +51,7 @@ export const ImgCarousel = () => {
             />
           </Carousel.Item>
         </Carousel>
+        </div>
       </div>
     );
   }

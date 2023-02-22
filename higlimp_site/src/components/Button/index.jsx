@@ -2,10 +2,10 @@ import styles from './styles.module.css'
 
 
 export const Button = (props) => {
-    const {title} = props
+    const {title, onClick} = props
     
     return (
-        <button className={styles.headerButton}>
+        <button className={styles.headerButton} onClick={onClick}>
             <div>
                 {title}
             </div>

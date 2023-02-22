@@ -5,3 +5,9 @@
     right: 2rem;
     background: none;
 }
+
+.buttonFloating:hover{
+    box-shadow: 10px;
+}
+
+
