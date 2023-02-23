@@ -23,31 +23,31 @@ export const ImgCarousel = () => {
           <Carousel.Item className={styles.item}>
             <img 
               src={sofa2}
-              alt="Image Two"
+              alt="One"
             />
           </Carousel.Item>
           <Carousel.Item className={styles.item}>
             <img
               src={sofa3}
-              alt="Image One"
+              alt="Two"
             />
           </Carousel.Item>
           <Carousel.Item className={styles.item}>
             <img
               src={sofa4}
-              alt="Image One"
+              alt="Three"
             />
           </Carousel.Item>
           <Carousel.Item className={styles.item}>
             <img
               src={sofa5}
-              alt="Image One"
+              alt="Four"
             />
           </Carousel.Item>
           <Carousel.Item className={styles.item}>
             <img
               src={sofa6}
-              alt="Image One"
+              alt="Five"
             />
           </Carousel.Item>
         </Carousel>
