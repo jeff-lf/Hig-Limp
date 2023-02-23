@@ -20,7 +20,7 @@ export const HowWork = () => {
             </div>
             <div className={styles.card}>
               <div className={styles.icon}>
-                <BsCalculatorFill size={30}/>
+                <BsCalculatorFill size={30} className={styles.iconSvg}/>
               </div>
               <h3>Orçamento</h3>
               <p>
@@ -30,7 +30,7 @@ export const HowWork = () => {
             </div>
             <div className={styles.card}>
               <div className={styles.icon}>
-                <GiVacuumCleaner  size={30}/>
+                <GiVacuumCleaner  size={30} className={styles.iconSvg}/>
               </div>
               <h3>Limpeza</h3>
               <p>

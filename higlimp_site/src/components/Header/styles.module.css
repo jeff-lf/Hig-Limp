@@ -2,9 +2,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: absolute;
     width: 100vw;
     height: 10vh;
-    background-color: var(--grey-0);
+    background: transparent;
 }
 
 .content{

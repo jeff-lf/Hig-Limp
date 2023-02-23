@@ -1,4 +1,4 @@
-import foto1 from '../../assets/images/sofa1.jpeg'
+import foto1 from '../../assets/layout/HeaderImg.jpg'
 
 export const ImgPresentation = () => {
 

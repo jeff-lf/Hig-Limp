@@ -2,10 +2,10 @@
     width: 6rem;
     font-size: 14px;
     font-weight: 700;
-    color: var(--grey-2);
+    color: var(--Cadet);
     background: none;
 }
 
 .headerButton:hover{
-    color: #3ac2ce;
+    color: var(--orange);
 }

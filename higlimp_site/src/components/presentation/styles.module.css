@@ -1,7 +1,7 @@
 .container{
     width: 100vw;
     height: 60vh;
-    background-color: #24201f;
+    background-color: var(--cadet);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -32,7 +32,7 @@
     display: flex;
     width: 50px;
     height: 50px;
-    background-color: var(--grey-0);
+    background-color: var(--orange);
     border: none;
     border-radius: 50%;
     justify-content: center;
@@ -40,7 +40,7 @@
 }
 
 .iconSvg{
-    color: #0dbe42;
+    color: var(--cadet);
 }
 
 .cardlist {
