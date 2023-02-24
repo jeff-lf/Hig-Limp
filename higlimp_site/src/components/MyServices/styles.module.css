@@ -68,9 +68,37 @@
 
     .video{
         max-width: 80vw;
-        width: 80vw;
+        width: 80%;
         height: 40vh;
         margin-top: 5%;
     }
     
+}
+
+@media (max-width: 550px){
+    .content{
+        justify-content: space-around;
+    }
+    .text{
+        width: 100%;
+    }
+
+    .video{
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 450px){
+
+    .container{
+        height: 115vh;
+    }
+    .content{
+        height: 100vh;
+        justify-content: space-around;
+    }
+    .text{
+        width: 100%;
+    }
 }

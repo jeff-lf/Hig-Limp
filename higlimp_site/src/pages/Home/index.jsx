@@ -1,4 +1,6 @@
+import { AboutUs } from "../../components/AboutUs"
 import { ButtonFloating } from "../../components/ButtonFloating"
+import { Footer } from "../../components/Footer"
 import { Header } from "../../components/Header"
 import { ImgCarousel } from "../../components/ImgCarousel"
 import { ImgPresentation } from "../../components/ImgPresentation"
@@ -16,7 +18,9 @@ export const Home = () => {
             <HowWork/>
             <MyServices />
             <ImgCarousel />
+            <AboutUs />
             <ButtonFloating />
+            <Footer />
         </div>
     )
 }

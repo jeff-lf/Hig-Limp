@@ -3,46 +3,10 @@ import styles from "./styles.module.css";
 import Dropdown from "react-bootstrap/Dropdown";
 
 import { GoThreeBars } from "react-icons/go";
-import React, { useState } from "react";
+import React from "react";
 
 export const Header = () => {
 
-  const [isHoveringA, setIsHoveringA] = useState(false);
-  const [isHoveringB, setIsHoveringB] = useState(false);
-  const [isHoveringC, setIsHoveringC] = useState(false);
-  const [isHoveringD, setIsHoveringD] = useState(false);
-
-  const handleMouseEnterA = () => {
-    setIsHoveringA(true);
-  };
-
-  const handleMouseLeaveA = () => {
-    setIsHoveringA(false);
-  };
-
-  const handleMouseEnterB = () => {
-    setIsHoveringB(true);
-  };
-
-  const handleMouseLeaveB = () => {
-    setIsHoveringB(false);
-  };
-
-  const handleMouseEnterC = () => {
-    setIsHoveringC(true);
-  };
-
-  const handleMouseLeaveC = () => {
-    setIsHoveringC(false);
-  };
-
-  const handleMouseEnterD = () => {
-    setIsHoveringD(true);
-  };
-
-  const handleMouseLeaveD = () => {
-    setIsHoveringD(false);
-  };
 
     const CustomToggle = React.forwardRef(({ children, onClick }, ref) => (
         <button
@@ -82,15 +46,22 @@ export const Header = () => {
     <header className={styles.container}>
       <div className={styles.content}>
         <div>HIG LIMP</div>
-        {window.screen.width <= 600 ? (
+        {window.screen.width >= 600 ? (
           <nav>
-            <ButtonC background="green" title="Início"></ButtonC>
+            <ButtonC 
+              background="green" 
+              title="Início"
+              ></ButtonC>
             <ButtonC
               background="green"
               title="Serviços"
               onClick={() => (window.location = "#services")}
             ></ButtonC>
-            <ButtonC background="green" title="Sobre nós"></ButtonC>
+            <ButtonC 
+              background="green" 
+              title="Sobre nós"
+              onClick={() => (window.location = "#aboutus")}
+              ></ButtonC>
             <ButtonC background="green" title="Contato"></ButtonC>
           </nav>
         ) : (
@@ -101,33 +72,25 @@ export const Header = () => {
 
             <Dropdown.Menu as={CustomMenu}>
               <Dropdown.Item 
-                style={{color: 'white', background: isHoveringA ? 'var(--orange)' : 'var(--cadet)'}} 
-                onMouseEnter={handleMouseEnterA}
-                onMouseLeave={handleMouseLeaveA}
+                style={{color: 'white'}} 
                 href="#/action-1" 
               >
                 Início
               </Dropdown.Item>
               <Dropdown.Item 
-                style={{color: 'white', background: isHoveringB ? 'var(--orange)' : 'var(--cadet)'}} 
-                onMouseEnter={handleMouseEnterB}
-                onMouseLeave={handleMouseLeaveB}
+                style={{color: 'white'}} 
                 href="#services"
               >
                 Serviços
               </Dropdown.Item>
               <Dropdown.Item 
-                style={{color: 'white', background: isHoveringC ? 'var(--orange)' : 'var(--cadet)'}}
-                onMouseEnter={handleMouseEnterC}
-                onMouseLeave={handleMouseLeaveC}
+                style={{color: 'white'}}
                 href="#/action-3"
               >
                 Sobre nós
               </Dropdown.Item>
               <Dropdown.Item 
-                style={{color: 'white', background: isHoveringD ? 'var(--orange)' : 'var(--cadet)'}}
-                onMouseEnter={handleMouseEnterD}
-                onMouseLeave={handleMouseLeaveD}
+                style={{color: 'white'}}
                 href="#/action-3"
               >
                 Contato

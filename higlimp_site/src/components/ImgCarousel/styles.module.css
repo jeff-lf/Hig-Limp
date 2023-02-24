@@ -17,7 +17,8 @@
 }
 
 .item img{
-    height: 48vh;
+    width: 36vw;
+    
 }
 
 .textCarousel{
@@ -39,8 +40,13 @@
     font-size: 32px;
 }
 .images{
-    width: 40vw;
-    height: 48vh;
+    width: 36vw;
+}
+
+.carouselContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media (min-width: 1440px) {
@@ -49,14 +55,15 @@
     }
 }
 
+
 @media (max-width: 1005px){
     .container{
-        height: 80vh;
+        height: 90vh;
     }
     .content{
         flex-direction: column;
         align-items: center;
-        height: 80vh;
+        height: 90vh;
     }
 
     .textCarousel {
@@ -68,11 +75,39 @@
     }
 
     .images{
-        width: 90%;
-        margin-bottom: 5%;
+        width: 100%;
+        margin-bottom: 10%;
     }
 
     .item img{
+        width: 100%;
+    }
+
+    
+
+    .carouselContainer{
+        width: 80%;
+    }
+}
+
+@media (max-width: 750px){
+    .content{
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 530px){
+    .carouselContainer{
         width: 90%;
+    }
+}
+
+@media (max-width: 430px){
+    .carouselContainer{
+        width: 100%;
+    }
+
+    .textCarousel{
+        width: 100%;
     }
 }

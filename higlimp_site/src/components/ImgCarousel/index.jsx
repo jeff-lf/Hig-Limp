@@ -19,6 +19,7 @@ export const ImgCarousel = () => {
               <h3 className={styles.carouselH}>Confira nossas TRANSFORMAÇÕES</h3>
               <p className={styles.carouselP}>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
+        <div className={styles.carouselContainer}>
         <Carousel className={styles.images}>
           <Carousel.Item className={styles.item}>
             <img 
@@ -51,6 +52,7 @@ export const ImgCarousel = () => {
             />
           </Carousel.Item>
         </Carousel>
+        </div>
         </div>
       </div>
     );
