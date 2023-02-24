@@ -1,15 +1,16 @@
 .container{
     width: 100vw;
-    height: 70vh;
+    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 5%;
+    padding-bottom: 5%;
+    background-color: var(--blue);
 }
 
 .content{
     width: 80vw;
-    height: 60vh;
+    height: 70vh;
     display: flex;
     justify-content: space-between;
     margin-top: 8%;

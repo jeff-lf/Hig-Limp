@@ -1,0 +1,17 @@
+@media (max-width: 600px) {
+    .headerImg{
+       height: 50vh;
+    }
+}
+
+@media (max-width: 500px) {
+    .headerImg{
+       height: 40vh;
+    }
+}
+
+@media (max-width: 400px) {
+    .headerImg{
+       height: 34vh;
+    }
+}
