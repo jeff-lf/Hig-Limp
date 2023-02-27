@@ -1,33 +1,25 @@
 .container{
     width: 100vw;
-    height: 80vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 5%;
     background-color: var(--blue);
 }
 
 .content{
     width: 80vw;
-    height: 70vh;
+    height: 80vh;
     display: flex;
-    justify-content: space-between;
-    margin-top: 8%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .item img{
     width: 36vw;
-    
 }
 
-.textCarousel{
-    width: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
 
 .carouselP{
     font-size: 1.8rem;
@@ -37,7 +29,7 @@
 }
 
 .carouselH{
-    font-size: 32px;
+    font-size: 2.5rem;
 }
 .images{
     width: 36vw;
@@ -47,67 +39,62 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 @media (min-width: 1440px) {
     .content{
         width: 68vw;
     }
+
+    .item img{
+        width: 28vw;
+        
+    }
 }
 
 
 @media (max-width: 1005px){
-    .container{
-        height: 90vh;
-    }
-    .content{
-        flex-direction: column;
-        align-items: center;
-        height: 90vh;
-    }
-
-    .textCarousel {
-        width: 80%;
-    }
-
-    .carouselP{
-        width: 100%;
-    }
-
-    .images{
-        width: 100%;
-        margin-bottom: 10%;
-    }
-
     .item img{
-        width: 100%;
+        width: 36vw;
     }
 
-    
-
-    .carouselContainer{
-        width: 80%;
-    }
 }
 
 @media (max-width: 750px){
-    .content{
-        justify-content: space-around;
+    .item img{
+        width: 49vw;
     }
+
+    .images{
+        width: 49vw;
+    }
+    
+
+
 }
 
 @media (max-width: 530px){
     .carouselContainer{
-        width: 90%;
+        width: 90vw;
     }
+
+    .item img{
+        width: 80vw;
+    }
+
+    .images{
+        width: 80vw;
+    }
+
+    .content{
+        width: 90vw;
+    }
+
 }
 
-@media (max-width: 430px){
-    .carouselContainer{
-        width: 100%;
-    }
-
-    .textCarousel{
-        width: 100%;
+@media (max-width: 375px){
+    .carouselH{
+        font-size: 2.2rem;
     }
 }

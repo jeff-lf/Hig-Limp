@@ -1,26 +1,23 @@
 import { AboutUs } from "../../components/AboutUs"
-import { ButtonFloating } from "../../components/ButtonFloating"
-import { Footer } from "../../components/Footer"
-import { Header } from "../../components/Header"
+import { FooterImg } from "../../components/FooterImg"
 import { ImgCarousel } from "../../components/ImgCarousel"
-import { ImgPresentation } from "../../components/ImgPresentation"
+import { ImgHeader} from "../../components/ImgHeader"
 import { MyServices } from "../../components/MyServices"
-import { HowWork } from "../../components/presentation"
+import { HowWork } from "../../components/HowWorks"
 
 import styles from './styles.module.css'
+
 
 
 export const Home = () => {
     return (
         <div className={styles.container}>
-            <Header/>
-            <ImgPresentation />
+            <ImgHeader />
             <HowWork/>
             <MyServices />
             <ImgCarousel />
             <AboutUs />
-            <ButtonFloating />
-            <Footer />
+            <FooterImg />
         </div>
     )
 }

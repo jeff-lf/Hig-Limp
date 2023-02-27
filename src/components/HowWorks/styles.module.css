@@ -1,0 +1,49 @@
+.container{
+    width: 100vw;
+    height: 80vh;
+    background-color: var(--blue);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content{
+    width: 80vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content h2{
+    font-size: 2rem;
+    color: var(--grey-0);
+}
+
+.logo{
+    width: 20vw;
+}
+
+
+@media (max-width: 1005px){
+    .logo{
+     width: 30vw;
+    }
+ 
+ }
+
+@media (max-width: 550px){
+    .content{
+        width: 90vw;
+    }
+
+    .logo{
+        width: 50vw;
+    }
+}
+
+@media (max-width: 380px){
+
+}

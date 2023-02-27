@@ -1,7 +1,7 @@
-import foto1 from '../../assets/layout/HeaderImg.jpg'
+import foto1 from '../../assets/images/sofa1.jpeg'
 import styles from './styles.module.css'
 
-export const ImgPresentation = () => {
+export const ImgHeader = () => {
 
     return(
         <div>

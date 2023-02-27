@@ -1,0 +1,26 @@
+.FlashyButton{
+    width: 40%;
+    height: 7%;
+    border-radius: 26px;
+    background-color: rgb(114, 230, 64);
+    font-weight: 700;
+    box-shadow: rgba(114, 230, 64, 0.6) 0px 0px 36px 10px, rgba(114, 230, 64, 0.5) 0px 0px 36px 10px;
+}
+
+
+@media (max-width: 1005px) {
+    .FlashyButton{
+        width: 55%;
+    }
+}
+@media (max-width: 750px){
+    .FlashyButton{
+        width: 70%;
+    }
+}
+
+@media (max-width: 550px){
+    .FlashyButton{
+        width: 100%;
+    }
+}

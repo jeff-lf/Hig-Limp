@@ -1,10 +1,11 @@
+import { FlashyButton } from '../FlashyButton';
 import styles from './styles.module.css'
 
 export const MyServices = () => {
   return (
     <div className={styles.container}>
-      <h2 id='services'>Nossos Serviços</h2>
       <div className={styles.content}>
+        <h2 id='services'>Limpeza e Higienização de qualidade</h2>
         <div className={styles.video}>
           <iframe
             width="100%"
@@ -16,13 +17,7 @@ export const MyServices = () => {
             allowfullscreen="true"
           ></iframe>
         </div>
-        <div className={styles.text}>
-          <h3>Limpeza e Higienização</h3>
-          <p>Lorem ipsum dolor sit amet consectetur 
-            adipisicing elit. Veniam, accusantium in magnam 
-            temporibus perspiciatis eligendi natus recusandae
-            </p>
-        </div>
+        <FlashyButton />
       </div>
     </div>
   );

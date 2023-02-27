@@ -9,6 +9,7 @@ import sofa5 from '../../assets/images/sofa5.jpeg'
 import sofa6 from '../../assets/images/sofa6.jpeg'
 
 import styles from './styles.module.css'
+import { FlashyButton } from '../FlashyButton';
 
 
 export const ImgCarousel = () => {
@@ -17,7 +18,6 @@ export const ImgCarousel = () => {
         <div className={styles.content}>
           <div className={styles.textCarousel}>
               <h3 className={styles.carouselH}>Confira nossas TRANSFORMAÇÕES</h3>
-              <p className={styles.carouselP}>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
         <div className={styles.carouselContainer}>
         <Carousel className={styles.images}>
@@ -53,6 +53,7 @@ export const ImgCarousel = () => {
           </Carousel.Item>
         </Carousel>
         </div>
+        <FlashyButton />
         </div>
       </div>
     );
