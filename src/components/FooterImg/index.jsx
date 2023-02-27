@@ -8,8 +8,9 @@ export const FooterImg = () => {
             <img src={footerImg} className={styles.backImg} alt=''></img>
             <div className={styles.content}>
                 <h2>
-                    Contatos:
+                    Localização e Contatos:
                 </h2>
+                <p>Rua das Giestas - Vila Prudente - São Paulo - SP</p>
                 <p>Telefone: (11) 98447-5160</p>
                 <a href="tel:11984475160" className={styles.buttonLG}><BsFillTelephoneFill /> Ligue agora</a>
                 <div className={styles.socialBox}>
